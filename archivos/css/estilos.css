@@ -1,0 +1,54 @@
+body,html{
+    height: 100%;
+    width: 100%;
+}
+.main-container{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-container > .login,
+.main-container > .hero-body{
+    height: 243px;
+    width: 330%;
+    max-width: 400px;
+    min-width: 300px;
+}
+.img-container {
+    text-align: center;
+}
+.form-inline{
+    display: inline-flex;
+}
+/*--------- Sub items ----------*/
+.dropdown-menu div {
+    position: relative;
+}
+
+.dropdown-menu .submenu {
+    display: none;
+    position: absolute;
+    left: 100%;
+    top: -7px;
+}
+
+.dropdown-menu>div:hover>.submenu {
+    display: block;
+}
+
+.dropdown-menu .submenu-left {
+    right: 100%;
+    left: auto;
+}
+
+.td-circulo {
+    width: 100px;
+    height: 100px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    background: #5cb85c;
+}
+/*--------- Sub items ----------*/
